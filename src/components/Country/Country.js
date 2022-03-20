@@ -2,7 +2,7 @@ import React from 'react';
 import './Country.css'
 
 const Country = (props) => {
-    console.log(props.country.area)
+    // console.log(props.country.area)
     
     const {name,area,region,population,flags}=props.data
     // console.log(props.country)

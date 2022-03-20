@@ -5,7 +5,7 @@ import './App.css';
 import Countries from './components/Countries/Countries';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Person from './components/Person/Person';
+
 
 
 
@@ -23,7 +23,7 @@ function App() {
     <div className="App">
      <Header></Header>
     <Countries></Countries>
-    <Person></Person>
+    
     <Footer></Footer>
    
 
