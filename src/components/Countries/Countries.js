@@ -4,8 +4,7 @@ import './Countries.css';
 
 const Countries = () => {
     const [countries,setCountries] =useState([]);
-    const [number,setNumber] =useState(1);
-    console.log(number);
+    
     useEffect(()=>{
         
         fetch('https://restcountries.com/v3.1/all')
